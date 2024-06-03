@@ -1,0 +1,60 @@
+body {
+	background: #222222;
+}
+body{
+    color: #ffffff;
+}
+.header__logo{
+    color: #252b42;
+}
+.theme {
+    background: #222222;
+    box-shadow: 0 0 10px rgba(255,255,255,255.1);
+}
+.services__item {
+    box-shadow: 0px 13px 19px rgba(255, 255, 255, 255.1);
+	background-color: #222222;
+}
+.item-service__text {
+	color: #ffffff;
+	line-height: 142%;
+}
+.advantages__item {
+	background-color: #222222;
+}
+.advantages__text {
+	color: #ffffff;
+}
+.item-practice {
+	background-color: #222222;
+}
+.item-practice__text {
+	color: #ffffff;
+}
+.whoweare {
+	background: #222222;
+}
+.whoweare__text {
+	color: #ffffff;
+}
+.item-whoweare__text {
+	color: #ffffff;
+}
+.footer__copy {
+	color: #ffffff;
+}
+.table th {
+	background: #222222;
+}
+.gl{
+    background-color: #222222;
+}
+.inputBx input::placeholder {
+    color: #ffffff;
+}
+.remember{
+	color: #ffffff;
+}
+.grid{
+	background-color: #222222;
+}

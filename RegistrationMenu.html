@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap" rel="stylesheet" />
+    <link rel="icon" href="img/favicon/avtogonok.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/RegistrationMenu.css">
+    <link rel="stylesheet" title="theme" href="#">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Меню Регистрации</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a href="index.html" class="header__logo">
+                    Меню Регистрации 
+                </a>
+            </div>
+        </header>
+        <main class="page">
+            <section class="gl">
+                <div class="box">
+                    <div class="square" style="--i:0;"></div>
+                    <div class="square" style="--i:1;"></div>
+                    <div class="square" style="--i:2;"></div>
+                    <div class="square" style="--i:3;"></div>
+                    <div class="square" style="--i:4;"></div>
+                    <div class="square" style="--i:5;"></div>
+                    <div class="cont">
+                        <div class="form">
+                            <h2>Вход в аккаунт</h2>
+                            <form action="">
+                                <div class="inputBx">
+                                    <input type="text" required="required" placeholder="логин">
+                                </div>
+                                <div class="inputBx password">
+                                    <input id="password-input" placeholder="пароль" type="password" name="password" required="required">
+                                    <a class="password-control" onclick="return show_hide_password(this);"></a>
+                                </div>
+                                <label class="remember"><input type="checkbox">Запомнить?</label>
+                                <div class="inputBx">
+                                    <a><input type="submit" value="Войти"></a>
+                                </div>
+                            </form>
+                            <p>Забыли пароль?<a href="plug.html">Вам сюда</a></p>
+                            <p>Нет аккаунта?<a href="plug.html">Регистрация</a></p>
+                        </div>
+                
+                    </div>
+                </div>
+            </section>
+            <button class="catalog-btn">
+                <span class="catalog-btn__text">Наша школа на карте</span>
+              </button>
+              <iframe  class="iframe hidden" src="https://yandex.ru/map-widget/v1/?um=constructor%3A51772b0eddedb2322c1c587290e7cbb0baefb7719e6431644c993afe67b3b759&amp;source=constructor" frameborder="0"></iframe>
+        </main>
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="footer__main _container">
+                    <div class="footer__row">
+
+                        <div class="footer__column">
+                            <div class="footer__label">Будьте на связи с нами</div>
+                            <div class="footer__contacts contacts-footer">
+                                <a href="tel:89207185582" class="contacts-footer__item contacts-footer__item_phone">8 (920)-718-55-82</a>
+                                <a href="plug.html" class="contacts-footer__item contacts-footer__item_map"> г. Москва, Виноградная, д.22</a>
+                                <a href="smartacademy@gmail.com" class="contacts-footer__item contacts-footer__item_email">smartacademy@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+</body>
+<script src="js/script.js"></script>
+<script src="js/card.js"></script>
+</html>
